@@ -1,5 +1,6 @@
 # k40Mod
- I did not write this in large part, main credit goes to scorch works. 
+ I did not write this in large part, main credit goes to scorch works. See <br>
+ https://www.scorchworks.com
 
 I've tried providing updates to requests in k40 whisperer source, but my mods never get pushed to main.
 OK, Here are the things I will be changing:
@@ -13,4 +14,4 @@ My interest is mainly in adding functionality, and not rewriting the whole syste
 facilitate missing functions. 
 
 This sofware is provided without warrenty, for educational purposes only. 
- .
+ 
