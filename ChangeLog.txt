@@ -1,0 +1,4 @@
+Modified     def menu_File_Open_Design(self, event=None) to not list hidden files.
+Modidied     version number with this folder name, not in code.
+modified     imports to include TclError.  -- tried some other ways to do the import, but they had errrors. 
+
