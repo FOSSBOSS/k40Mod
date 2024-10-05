@@ -1,0 +1,7 @@
+Dirty hacks on the way
+
+Made tkinter stop listing hidden files with help from this stack exchange post:
+https://stackoverflow.com/questions/53220711/how-to-avoid-hidden-files-in-file-picker-using-tkinter-filedialog-askopenfilenam
+
+Modifying this function:
+    def menu_File_Open_Design(self, event=None):
