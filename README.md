@@ -8,6 +8,7 @@ OK, Here are the things I will be changing:
 Stop listing hidden directories.<br>
 provide a shell or remote interface. <br>
 Add additional navigational buttons.<br>
+Fix the Linux installation instructions<br>
 
 The way K40_whisperer is currently written, with tkinter, is such that only dank hacks really work. 
 My interest is mainly in adding functionality, and not rewriting the whole system to properly 
