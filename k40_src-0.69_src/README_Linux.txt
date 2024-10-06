@@ -25,7 +25,8 @@ SUBSYSTEM=="usb", ATTRS{idVendor}=="1a86", ATTRS{idProduct}=="5512", ENV{DEVTYPE
 
 Now save the file.
 
-6. Reboot your computer!
+6. load the rules file you just added:
+sudo udevadm trigger
 
 7. Download and the K40whisperer source code, for example "K40_Whisperer-0.07_src.zip"
 
