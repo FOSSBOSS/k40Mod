@@ -1,26 +1,19 @@
 ------------------------------------------------------------------------------------
-Thanks to Pete Peterson (@ipetepete on Twitter) for these instructions
-for setting up K40 Whisperer on a Mac computer 
+These instructions havent been fixed yet, but they were offensive, and ill advised.
+Ill fix it. I just haven't yet.
 ------------------------------------------------------------------------------------
 
 # Requirements
 
-* Python 2.7 (this works nicely if you use virtualenv)
-* Inkscape (build from source using brew)
-* Must be run as `root` -see below for more info
+* Python 3
+* inkex (inkscape python dependencies) 
+* installation of libraries in requirements.txt
 
 ## Instructions
 
-### Install Inkscape
-
-This did not work using the Quartz binary for Inkscape. Only by building from source did it work correctly.
-Suggested approach is installing using __Homebrew__:
-
-` brew install caskformula/caskformula/inkscape`
 
 ### Install Python & Libraries
 
-Suggested approach is to use [Virtualenv](https://virtualenv.pypa.io/en/stable/) and install Python 2.7 even if your system is currently running 2.7.
 
 __Install requirements:__
 
@@ -28,20 +21,14 @@ __Install requirements:__
 
 __Run K40Whisperer__
 
-`sudo python k40_whisperer.py`
-
-_Why does this need to be run as root?_
-
-In general all devices require elevated permissions. To allow PyUSB access to a certain device as non-root, some work needs to be done, namely; create a user-group, set perms to the device when connected as belonging to the group, add your user to the newly created user-group.
-
-Read more here: https://stackoverflow.com/questions/3738173/why-does-pyusb-libusb-require-root-sudo-permissions-on-linux#8582398
-
-This can potentially be automated, but more work needs to be done.
+`k40_whisperer.py`
 
 
-
-------------------------------------------------------------------------------------
-Thanks to Pete Peterson (@ipetepete on Twitter) for these instructions
-for setting up K40 Whisperer on a Mac computer 
-------------------------------------------------------------------------------------
-
+TODO: fix installation commands.
+      fix all the scripts to call python3 properly
+      fix the root permission missnomer
+      Express support for only systems using python version 3 and up.
+      fix requrements.txt to actualy include the required dependencies
+      verify all the fixes, and list tested MacOS versions.
+      Investigate what MacOS does inlieu of udev
+      
