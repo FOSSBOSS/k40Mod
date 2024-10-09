@@ -9,7 +9,15 @@ Ill fix it. I just haven't yet.
 * inkex (inkscape python dependencies) 
 * installation of libraries in requirements.txt
 
-## Instructions
+## Instructions:
+Ok so, we're going to try this without brew, which should be completely feasable, though if you have brew installed, the instructions may be similar. 
+
+# MacOS get pip
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+# Install pip
+python3 get-pip.py
+
+
 
 
 ### Install Python & Libraries
